@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<!-- HOME -->
+<div class="container">
+    <section class="hero" id="banner">
+        <h1 class="intro">Hello, my name is <span style="font-weight:800;">Marina Demas</span>.<br />I am a front-end developer.</h1>
+        <button class="button" id="button" type="button"><a href="#">View my portfolio</a></button>
+    </section>
+<!-- NAVIGATION -->
+    <section class="main-header" id="header-bar">
+        <a href="#" class="name">Marina Demas</a>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="main-nav">
+            <li><a id="first-nav" href="#section-one">About</a></li>
+            <li><a href="#section-two" id="second-nav">Portfolio</a></li>
+            <li><a href="files/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li><a id="third-nav" href="#section-three">Contact</a></li>
+        </ul>
+    </section>
+<!-- ABOUT -->
+    <section class="section-white" id="section-one">
+        <h2 class="header-one">About</h2>
+        <img class="image-1" src="images/headshot_marina.jpg">
+        <div class="flex">
+            <p class="intro-statement"><b>I am an experienced front-end developer who is very comfortable working in HTML, CSS and JavaScript. I also have some experience in back-end development with PHP and Python. I graduated from the University of Vermont in 2015 with a B.S. in Public Communication and recently earned a Web Programming Certificate at Champlain College in May of 2021. I am looking for an opportunity to expand on the skills I have as well as learn new ones.</b></p>
+            <div class="box">
+                <i class="material-icons-outlined">school</i>
+                <h2 style="text-align: center;">Education</h2>
+                <p><span style="color:#296994;">University of Vermont, Burlington, VT</span><br/>B.S. in Public Communication<br/><i>Graduated May 2015</i></p>
+                <p><span style="color:#296994;">Champlain College, Burlington, Vermont</span><br/>Web Programming Certificate<br/><i>Completed May 2021</i></p>
+            </div>
+            <div class="box">
+                <i class="material-icons-outlined">code</i>
+                <h2 style="text-align: center;">Skills</h2>
+                <p><span style="color:#296994;">Languages: </span>HTML5, CSS, JavaScript, PHP, SQL, SASS</p>
+                <p><span style="color:#296994;">Libraries/Frameworks: </span>jQuery, .NET, Bootstrap, React</p>
+                <p><span style="color:#296994;">Adobe Creative Suite: </span> Photoshop, Illustrator, InDesign</p>
+                <p><span style="color:#296994;">CMS: </span>Kentico, Ektron, WordPress</p>
+            </div>
+        </div>
+    </section>
+<!-- PORTFOLIO -->
+    <section class="section-grey" id="section-two">
+        <h1 class="header-one">Portfolio</h1>
+        <p>Here are a few projects I've worked on recently:</p>
+        <div class="flex">
+            <div class="box-2">
+                <img class="special" src="images/helpcenter_b.jpg">
+                <div class="img-overlay">
+                    <p class="img-description">Based on user needs analysis, built ASTRO's help center including knowledge base.</p>
+                    <div class="img-button"><a href="https://astro.freshservice.com/support/home" target="_blank" rel="noopener noreferrer">View Site</a></div>
+                </div>
+            </div>
+            <div class="box-2">
+                <img class="special" src="images/goldmedal_c.jpg">
+                <div class="img-overlay">
+                    <p class="img-description">Created ASTRO's Annual Meeting event invitations including Gold Medal Dinner.</p>
+                    <div class="img-button"><a href="files/goldmedal.html" target="_blank" rel="noopener noreferrer">View Email</a></div>
+                </div>
+            </div>
+            <div class="box-2">
+                <img class="special" src="images/astronews.jpg">
+                <div class="img-overlay">
+                    <p class="img-description">Produce <i>ASTROnews</i> web version and collateral including eTOC.</p>
+                    <div class="img-button"><a href="files/astronews.html" target="_blank" rel="noopener noreferrer">View Email</a></div>
+                </div>
+            </div>
+            <div class="box-2">
+                <img class="special" src="images/thoracicsymposium_b.jpg">
+                <div class="img-overlay">
+                    <p class="img-description">Assisted in building and design of 2021 Multidisciplinary Thoracic Cancers Symposium site.</p>
+                    <div class="img-button"><a href="https://www.astro.org/Meetings-and-Education/Micro-Sites/2021/Thoracic-Symposium" target="_blank" rel="noopener noreferrer">View Site</a></div>
+                </div>
+            </div>
+            <div class="box-2">
+                <img class="special" src="images/annualmeeting.jpg">
+                <div class="img-overlay">
+                    <p class="img-description">Supported the build and branding of the 2021 Annual Meeting site.</p>
+                    <div class="img-button"><a href="https://www.astro.org/Meetings-and-Education/Micro-Sites/2021/Annual-Meeting" target="_blank" rel="noopener noreferrer">View Site</a></div>
+                </div>
+            </div>
+            <div class="box-2">
+                <img class="special" src="images/headneck.jpg">
+                <div class="img-overlay">
+                    <p class="img-description">Built and designed the 2022 Head and Neck Cancers Symposium site.</p>
+                    <div class="img-button"><a href="https://www.astro.org/Meetings-and-Education/Micro-Sites/2022/Head-and-Neck-Symposium" target="_blank" rel="noopener noreferrer">View Site</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- CONTACT -->
+    <section class="section-white" id="section-three">
+        <h2 class="header-one">Contact</h2>
+        <div class="flex">
+            <form method="post" action="https://formspree.io/f/mayalwgn">
+                <input placeholder="Name" type="text" name="name" />
+                <input placeholder="Subject" type="text" name="subject" />
+                <input placeholder="Email" type="email" name="email" />
+                <textarea placeholder="Message" type="text" name="message" rows="6" cols="60"></textarea>
+                <input type="submit" id="submit" name="submit" value="SUBMIT" />
+            </form>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer>
+        <a class="mdi-chevron-double-up" id="home"><span class="iconify" data-icon="fluent:chevron-double-up-16-filled" data-inline="false"></span></a>
+        <div class="icon-wrap flex">
+            <a href="https://www.linkedin.com/in/marinademas/" target="_blank" rel="noopener noreferrer">
+                <div class="icon" id="icon-1">
+                    <span class="iconify" data-icon="mdi-linkedin" data-inline="false"></span>
+                </div>
+            </a>
+            <a href="https://teamtreehouse.com/marinademas" target="_blank" rel="noopener noreferrer">
+                <div class="icon" id="icon-2">
+                    <span class="iconify" data-icon="cib:treehouse"></span>
+                </div>
+            </a>
+            <a href="https://codepen.io/Mdemas2020" target="_blank" rel="noopener noreferrer">
+                <div class="icon" id="icon-3">
+                    <span class="iconify" data-icon="akar-icons:codepen-fill" data-inline="false"></span>
+                </div>
+            </a>
+        </div>
+        <div class="info-box">
+            <div class="footnote">MARINA DEMAS <span class="highlight">&copy;2021</span></div>
+        </div>
+    </footer>
+</div>
+    <script src="https://kit.fontawesome.com/bcf119fd45.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+</html>
